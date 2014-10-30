@@ -52,14 +52,17 @@ queueMethods.size = function(){
 };
 
 queueMethods.getSize = function(){
-    return this.qsize;
-  };
-  queueMethods.increaseSize = function(){
-    return this.qsize++;
-  }
-  queueMethods.decreaseSize = function(){
-    return this.qsize--;
-  }
-  queueMethods.resetSize = function(){
-    return this.qsize = 0;
-  }
+  return this.qsize;
+};
+
+queueMethods.increaseSize = function(){
+  return this.qsize++;
+};
+
+queueMethods.decreaseSize = function(){
+  return this.qsize--;
+};
+
+queueMethods.resetSize = function(){
+  return this.qsize = 0;
+};

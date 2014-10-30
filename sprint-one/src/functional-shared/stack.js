@@ -45,12 +45,15 @@ stackMethods.size = function(){
 stackMethods.getSize = function(){
   return this.qsize;
 };
+
 stackMethods.increaseSize = function(){
   return this.qsize++;
 }
+
 stackMethods.decreaseSize = function(){
   return this.qsize--;
 }
+
 stackMethods.resetSize = function(){
   return this.qsize = 0;
 }
