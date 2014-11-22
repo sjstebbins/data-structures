@@ -10,6 +10,7 @@ var makeQueue = function(){
 
 var queueMethods = {};
 
+
 queueMethods.enqueue = function(value){
   //add value to storage
   this.storage[this.getSize() +1] = value;
